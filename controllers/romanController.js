@@ -6,7 +6,7 @@ const romanController = {
         let word = req.body.text
 
         if (!word) {
-            return res.status(400).json(({ error: 'Body deve ser passado no formado {"text": "XXXIVHQIWEUKCXZXWS"}' }))
+            res.status(400).json(({ error: 'Body deve ser passado no formado {"text": "XXXIVHQIWEUKCXZXWS"}' }))
         } else {
 
             var wordArray = word.split(/[^CDILMVX]/)
