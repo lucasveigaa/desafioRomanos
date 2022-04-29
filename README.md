@@ -3,11 +3,11 @@
 
 
 #### Instalando dependências e colocando o servidor para rodar:
-Para fazer a aplicação rodar usar o comando npm install ou usar npm install express e npm install yarn add romans para instalar as dependências. Após isso utilizar o comando node index.js para executar a aplicação.
+Para fazer a aplicação rodar usar o comando npm install para instalar as dependências. Após isso utilizar o comando node index.js para executar a aplicação.
 
 
 #### Executando a aplicação
-Com o aplicação rodando deve se enviar um JSON pelo método POST no body utilizando algum programa como insomnia ou postman no seguinte formato:
+Com a aplicação rodando deve se enviar um JSON pelo método POST no body utilizando algum programa como insomnia ou postman no seguinte formato:
 {
 	"text": "AXXBLX"
 }
