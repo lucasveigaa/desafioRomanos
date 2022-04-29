@@ -8,9 +8,12 @@ Para fazer a aplicação rodar usar o comando npm install para instalar as depen
 
 #### Executando a aplicação
 Com a aplicação rodando deve se enviar um JSON pelo método POST no body utilizando algum programa como insomnia ou postman no seguinte formato:
+
+```
 {
-	"text": "AXXBLX"
+   "text":"AXXBLX"
 }
+```
 
 A palavra text deve sempre se manter a mesma, e onde está a palavra "AXXBLX" deve se colocar a palavra desejada.
 
