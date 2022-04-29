@@ -15,7 +15,7 @@ Com a aplicação rodando deve se enviar um JSON pelo método POST no body utili
 }
 ```
 
-A palavra text deve sempre se manter a mesma, e onde está a palavra "AXXBLX" deve se colocar a palavra desejada.
+No body devemos passar sempre o primeiro atributo como text, e o segundo atributo onde está "AXXBLX" deve se colocar a palavra desejada.
 
  Após executar a aplicação irá retornar o maior número romano existente na palavra desejada.
 
